@@ -1,0 +1,99 @@
+.profile {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .profile-sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-sidebar input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .profile-content {
+    flex-grow: 1;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-field {
+    margin-bottom: 10px;
+  }
+  
+  .profile-field label {
+    font-weight: bold;
+  }
+  
+  .profile-field input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  .profile-section {
+    margin-top: 20px;
+  }
+  
+  .profile-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .recipe-card {
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .recipe-card p {
+    margin-top: 10px;
+  }
+  
